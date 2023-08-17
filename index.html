@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="nav">
+          <div class="navop"></div>
+          <h1 class="name">Abhinav's Portfolio</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="first">
+          <div class="box1">
+            <div>Hi, My Name is</div>
+            <span id="namediv">Abhinav Mishra</span>
+            <div>and I'm a passionate</div>
+            <span id="element"> </span>
+          </div>
+          <div class="box2">
+            <img src="pic1.png" class="pic1" alt="picture" srcset="" />
+          </div>
+        </section>
+        <hr />
+
+        <h3>Work Experience</h3>
+        <br />
+
+        <div class="line"></div>
+        <section class="second">
+          <div class="verticalline">
+            <img src="icon.png" class="image-top" alt="icon" />
+            <div class="vertitle">HTML Developer (2020-2021)</div>
+            <div class="verdesc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit . Modi
+              obcaecati quidem reiciendis et voluptatibus temporibus deserunt!
+            </div>
+          </div>
+          <div class="verticalline">
+            <img src="icon.png" class="image-top" alt="icon" />
+            <div class="vertitle">Css & JS Developer (2021-2022)</div>
+            <div class="verdesc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit . Modi
+              obcaecati quidem reiciendis et voluptatibus temporibus deserunt!
+            </div>
+          </div>
+          <div class="verticalline">
+            <img src="icon.png" class="image-top" alt="icon" />
+            <div class="vertitle">React Developer (2022-2023)</div>
+            <div class="verdesc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit . Modi
+              obcaecati quidem reiciendis et voluptatibus temporibus deserunt!
+            </div>
+          </div>
+          <div class="verticalline">
+            <img src="icon.png" class="image-top" alt="icon" />
+            <div class="vertitle">MONGO DB (2023)</div>
+            <div class="verdesc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit . Modi
+              obcaecati quidem reiciendis et voluptatibus temporibus deserunt!
+            </div>
+          </div>
+          <div class="verticalline"></div>
+        </section>
+        <hr />
+        <section class="footer">
+          <p>
+            Copyright &copy;1995-2023 Abhinav'sPortfolio. All Right Reserved
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <!-- Element to contain animated typing -->
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer."],
+        typeSpeed: 80,
+      });
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </body>
+</html>
